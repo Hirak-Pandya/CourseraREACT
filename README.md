@@ -1,2 +1,0 @@
-# CourseraREACT
-Created with CodeSandbox
