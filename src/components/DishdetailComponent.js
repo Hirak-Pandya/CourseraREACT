@@ -60,12 +60,11 @@ class DishDetail extends Component {
     if (dish == null) {
       return <div />;
     }
-    const dishitem = this.renderDish(dish);
-    const commentitem = this.renderComments(dish.comments);
+    
     return (
       <div className="row">
-        {dishitem}
-        {commentitem}
+         {this.renderDish(dish)};
+         {this.renderComments(dish.comments)};
       </div>
     );
   }
